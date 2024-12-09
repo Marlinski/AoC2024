@@ -8,8 +8,10 @@ with open(puzzle, 'r') as file:
         matrix.append(list(line.strip()))
 (rows,cols) = (len(matrix), len(matrix[0]))
 
+
 def is_outside(x,y):
     return x < 0 or x >= cols or y < 0 or y >= rows
+
 
 fr_loc = defaultdict(list)
 for y, _ in enumerate(matrix):
