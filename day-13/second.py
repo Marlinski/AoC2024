@@ -1,7 +1,7 @@
 import re
 from pydantic import BaseModel
 from typing import Optional
-from decimal import Decimal
+import numpy as np
 
 puzzle = 'day-13/puzzle'
 
@@ -74,7 +74,26 @@ def solve_cramer_method(a,b,c,d,e,f):
 
     return int(3 * x1 + x2)
 
+
 print(sum([solve_cramer_method(C.Ax, C.Bx, C.Ay, C.By, C.Px, C.Py) for C in claws]))
 
-    
-    
+
+# This part was done after to try to use numpy instead of doing hand calculation
+#
+# A . X = B
+# X = B . A^(-1)
+#
+# SOMEHOW DOES NOT WORK ?!
+def solve_inverse_method(a,b,c,d,e,f):
+    A = np.array([[a,b],[c,d]])
+    B = np.array([e,f])
+
+    if np.linalg.det(A) != 0:
+        X = np.linalg.inv(A) @ B
+        if np.all(np.isclose(X, np.round(X))):
+            return 3*int(X[0]) + int(X[1])
+        
+    return 0 # not possible
+
+print(sum([solve_inverse_method(C.Ax, C.Bx, C.Ay, C.By, C.Px, C.Py) for C in claws]))
+
