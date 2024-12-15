@@ -14,6 +14,7 @@ with open(puzzle, 'r') as file:
     ]
     cols = 101
     rows = 103
+    
 
 
 counts = defaultdict(int)
