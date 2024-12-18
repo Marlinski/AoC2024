@@ -40,13 +40,11 @@ def dijkstra(step):
                 to_visit.append((next_d, (next_x, next_y)))
     return shortest
 
-
-# Bruteforcing, not even trying to do a binary search as there's only ~3k to look for
-for step in range(len(bytes)):
-    shortest = dijkstra(step)
-    print(step, bytes[step])
-    if end not in shortest:
-        break
-
-print(bytes[step-1])
+# Binary Search
+range = (0,len(bytes))
+while range[1] - range[0] > 2:
+    mid = range[0] + (range[1] - range[0]) // 2
+    shortest = dijkstra(mid)
+    print(range, mid, bytes[mid])
+    range = (range[0], mid) if end not in shortest else (mid, range[1])
     
