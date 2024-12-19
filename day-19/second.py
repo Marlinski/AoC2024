@@ -10,8 +10,6 @@ with open(puzzle) as f:
 
 @cached
 def is_valid(design):
-    if not design:
-        return 1, True
-    return (sum(is_valid(design[len(pattern):])[0] for pattern in patterns if design.startswith(pattern)), True)
+    return 1 if not design else sum(is_valid(design[len(pattern):]) for pattern in patterns if design.startswith(pattern))
 
-print(sum(is_valid(design)[0] for design in designs if is_valid(design)[1]))
+print(sum(is_valid(design) for design in designs))
