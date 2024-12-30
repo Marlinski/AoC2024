@@ -1,447 +1,761 @@
 digraph AdderGraph {
   rankdir=LR;
-  "XOR" -> "z21" [label="rdf"];
-  "nck" -> "z21" [label="rdf"];
-  "AND" -> "stn" [label="y12"];
-  "x12" -> "stn" [label="y12"];
-  "XOR" -> "z41" [label="twb"];
-  "jgm" -> "z41" [label="twb"];
-  "OR" -> "cmt" [label="cpj"];
-  "tgr" -> "cmt" [label="cpj"];
-  "XOR" -> "jws" [label="y17"];
-  "x17" -> "jws" [label="y17"];
-  "XOR" -> "z14" [label="cpg"];
-  "tdr" -> "z14" [label="cpg"];
-  "AND" -> "dkt" [label="x42"];
-  "y42" -> "dkt" [label="x42"];
-  "OR" -> "dck" [label="jmq"];
-  "bjv" -> "dck" [label="jmq"];
-  "AND" -> "cwk" [label="wkt"];
-  "jgp" -> "cwk" [label="wkt"];
-  "OR" -> "pqr" [label="fmk"];
-  "wqh" -> "pqr" [label="fmk"];
-  "AND" -> "rsd" [label="jws"];
-  "rmd" -> "rsd" [label="jws"];
-  "AND" -> "rns" [label="y32"];
-  "x32" -> "rns" [label="y32"];
-  "AND" -> "kvg" [label="twb"];
-  "jgm" -> "kvg" [label="twb"];
-  "XOR" -> "z09" [label="nrq"];
-  "wcd" -> "z09" [label="nrq"];
-  "OR" -> "dtb" [label="btc"];
-  "rns" -> "dtb" [label="btc"];
-  "XOR" -> "z20" [label="ctq"];
-  "gjs" -> "z20" [label="ctq"];
-  "XOR" -> "z18" [label="dqd"];
-  "hhm" -> "z18" [label="dqd"];
-  "AND" -> "nhs" [label="hfh"];
-  "jdt" -> "nhs" [label="hfh"];
-  "OR" -> "hhm" [label="rsd"];
-  "rgp" -> "hhm" [label="rsd"];
-  "AND" -> "kmw" [label="x19"];
-  "y19" -> "kmw" [label="x19"];
-  "XOR" -> "z15" [label="dck"];
-  "ctg" -> "z15" [label="dck"];
-  "AND" -> "trm" [label="pqr"];
-  "hhv" -> "trm" [label="pqr"];
-  "AND" -> "trg" [label="y08"];
-  "x08" -> "trg" [label="y08"];
-  "AND" -> "z31" [label="x31"];
-  "y31" -> "z31" [label="x31"];
-  "AND" -> "bjv" [label="x14"];
-  "y14" -> "bjv" [label="x14"];
-  "XOR" -> "sbn" [label="y26"];
-  "x26" -> "sbn" [label="y26"];
-  "XOR" -> "z30" [label="pgj"];
-  "fnn" -> "z30" [label="pgj"];
-  "AND" -> "cqf" [label="hwb"];
-  "rgq" -> "cqf" [label="hwb"];
-  "AND" -> "fcj" [label="ctq"];
-  "gjs" -> "fcj" [label="ctq"];
-  "OR" -> "rgq" [label="thp"];
-  "qdg" -> "rgq" [label="thp"];
-  "AND" -> "mhg" [label="y03"];
-  "x03" -> "mhg" [label="y03"];
-  "XOR" -> "z05" [label="sbt"];
-  "ndc" -> "z05" [label="sbt"];
-  "OR" -> "dvh" [label="nrr"];
-  "hfv" -> "dvh" [label="nrr"];
-  "AND" -> "djc" [label="x07"];
-  "y07" -> "djc" [label="x07"];
-  "AND" -> "hvw" [label="dtb"];
-  "mpb" -> "hvw" [label="dtb"];
-  "OR" -> "cjs" [label="pwm"];
-  "cqf" -> "cjs" [label="pwm"];
-  "OR" -> "fpv" [label="dkt"];
-  "wdw" -> "fpv" [label="dkt"];
-  "AND" -> "djv" [label="x24"];
-  "y24" -> "djv" [label="x24"];
-  "OR" -> "cfp" [label="vsq"];
-  "gkt" -> "cfp" [label="vsq"];
-  "AND" -> "rgp" [label="x17"];
-  "y17" -> "rgp" [label="x17"];
-  "OR" -> "nhg" [label="rvf"];
-  "vph" -> "nhg" [label="rvf"];
-  "XOR" -> "bbf" [label="x44"];
-  "y44" -> "bbf" [label="x44"];
-  "XOR" -> "z29" [label="cjs"];
-  "gnb" -> "z29" [label="cjs"];
-  "XOR" -> "pgj" [label="y30"];
-  "x30" -> "pgj" [label="y30"];
-  "XOR" -> "sjb" [label="y27"];
-  "x27" -> "sjb" [label="y27"];
-  "AND" -> "dps" [label="fpp"];
-  "bbf" -> "dps" [label="fpp"];
-  "OR" -> "fpp" [label="ggc"];
-  "ptt" -> "fpp" [label="ggc"];
-  "XOR" -> "dqd" [label="x18"];
-  "y18" -> "dqd" [label="x18"];
-  "XOR" -> "jgp" [label="y19"];
-  "x19" -> "jgp" [label="y19"];
-  "XOR" -> "z19" [label="wkt"];
-  "jgp" -> "z19" [label="wkt"];
-  "XOR" -> "z04" [label="jcs"];
-  "ngk" -> "z04" [label="jcs"];
-  "XOR" -> "rdf" [label="y21"];
-  "x21" -> "rdf" [label="y21"];
-  "OR" -> "wkt" [label="spp"];
-  "fkm" -> "wkt" [label="spp"];
-  "XOR" -> "vsd" [label="x16"];
-  "y16" -> "vsd" [label="x16"];
-  "XOR" -> "cpg" [label="y14"];
-  "x14" -> "cpg" [label="y14"];
-  "OR" -> "rmd" [label="mbk"];
-  "qwg" -> "rmd" [label="mbk"];
-  "AND" -> "nrr" [label="y10"];
-  "x10" -> "nrr" [label="y10"];
-  "XOR" -> "sbt" [label="x05"];
-  "y05" -> "sbt" [label="x05"];
-  "XOR" -> "fvp" [label="y13"];
-  "x13" -> "fvp" [label="y13"];
-  "OR" -> "srm" [label="gdf"];
-  "tnw" -> "srm" [label="gdf"];
-  "AND" -> "gdf" [label="x09"];
-  "y09" -> "gdf" [label="x09"];
-  "OR" -> "jdt" [label="nvc"];
-  "rpv" -> "jdt" [label="nvc"];
-  "OR" -> "ctq" [label="kmw"];
-  "cwk" -> "ctq" [label="kmw"];
-  "AND" -> "qwg" [label="vsd"];
-  "wmb" -> "qwg" [label="vsd"];
-  "AND" -> "mfg" [label="x44"];
-  "y44" -> "mfg" [label="x44"];
-  "AND" -> "qdg" [label="y27"];
-  "x27" -> "qdg" [label="y27"];
-  "OR" -> "ndc" [label="jbg"];
-  "jqp" -> "ndc" [label="jbg"];
-  "XOR" -> "ngk" [label="x04"];
-  "y04" -> "ngk" [label="x04"];
-  "XOR" -> "z12" [label="hfh"];
-  "jdt" -> "z12" [label="hfh"];
-  "AND" -> "sqh" [label="ctg"];
-  "dck" -> "sqh" [label="ctg"];
-  "XOR" -> "z23" [label="jww"];
-  "djk" -> "z23" [label="jww"];
-  "XOR" -> "z32" [label="dtf"];
-  "vjq" -> "z32" [label="dtf"];
-  "AND" -> "ksc" [label="ngd"];
-  "sbf" -> "ksc" [label="ngd"];
-  "OR" -> "z45" [label="mfg"];
-  "dps" -> "z45" [label="mfg"];
-  "XOR" -> "rtg" [label="x01"];
-  "y01" -> "rtg" [label="x01"];
-  "AND" -> "jmq" [label="tdr"];
-  "cpg" -> "jmq" [label="tdr"];
-  "AND" -> "pwm" [label="y28"];
-  "x28" -> "pwm" [label="y28"];
-  "AND" -> "hhf" [label="y41"];
-  "x41" -> "hhf" [label="y41"];
-  "OR" -> "fgs" [label="qqp"];
-  "hfd" -> "fgs" [label="qqp"];
-  "XOR" -> "z16" [label="wmb"];
-  "vsd" -> "z16" [label="wmb"];
-  "AND" -> "hfd" [label="pgj"];
-  "fnn" -> "hfd" [label="pgj"];
-  "XOR" -> "z40" [label="dmf"];
-  "nwb" -> "z40" [label="dmf"];
-  "AND" -> "ktf" [label="rfs"];
-  "pcb" -> "ktf" [label="rfs"];
-  "AND" -> "rtp" [label="y05"];
-  "x05" -> "rtp" [label="y05"];
-  "AND" -> "btc" [label="vjq"];
-  "dtf" -> "btc" [label="vjq"];
-  "AND" -> "qrk" [label="fvp"];
-  "hjm" -> "qrk" [label="fvp"];
-  "XOR" -> "z33" [label="mpb"];
-  "dtb" -> "z33" [label="mpb"];
-  "XOR" -> "hfh" [label="y12"];
-  "x12" -> "hfh" [label="y12"];
-  "AND" -> "jcd" [label="cmt"];
-  "cbv" -> "jcd" [label="cmt"];
-  "AND" -> "nrt" [label="tkf"];
-  "frw" -> "nrt" [label="tkf"];
-  "AND" -> "tnw" [label="wcd"];
-  "nrq" -> "tnw" [label="wcd"];
-  "AND" -> "btk" [label="hwk"];
-  "cbc" -> "btk" [label="hwk"];
-  "XOR" -> "dvq" [label="hhv"];
-  "pqr" -> "dvq" [label="hhv"];
-  "OR" -> "nwb" [label="rfq"];
-  "bbk" -> "nwb" [label="rfq"];
-  "OR" -> "nck" [label="nhf"];
-  "fcj" -> "nck" [label="nhf"];
-  "XOR" -> "z42" [label="rww"];
-  "kbg" -> "z42" [label="rww"];
-  "XOR" -> "hnn" [label="x11"];
-  "y11" -> "hnn" [label="x11"];
-  "XOR" -> "dmh" [label="fgs"];
-  "ctw" -> "dmh" [label="fgs"];
-  "XOR" -> "rbf" [label="y36"];
-  "x36" -> "rbf" [label="y36"];
-  "AND" -> "vph" [label="y01"];
-  "x01" -> "vph" [label="y01"];
-  "XOR" -> "z43" [label="fjg"];
-  "fpv" -> "z43" [label="fjg"];
-  "XOR" -> "pcb" [label="x06"];
-  "y06" -> "pcb" [label="x06"];
-  "AND" -> "spv" [label="x33"];
-  "y33" -> "spv" [label="x33"];
-  "XOR" -> "z00" [label="y00"];
-  "x00" -> "z00" [label="y00"];
-  "XOR" -> "djk" [label="x23"];
-  "y23" -> "djk" [label="x23"];
-  "AND" -> "mjp" [label="x22"];
-  "y22" -> "mjp" [label="x22"];
-  "AND" -> "dwv" [label="wbm"];
-  "hrv" -> "dwv" [label="wbm"];
-  "XOR" -> "z28" [label="hwb"];
-  "rgq" -> "z28" [label="hwb"];
-  "XOR" -> "wbm" [label="x03"];
-  "y03" -> "wbm" [label="x03"];
-  "AND" -> "drq" [label="x00"];
-  "y00" -> "drq" [label="x00"];
-  "AND" -> "dnp" [label="x23"];
-  "y23" -> "dnp" [label="x23"];
-  "OR" -> "fnn" [label="wmk"];
-  "kfq" -> "fnn" [label="wmk"];
-  "XOR" -> "mpb" [label="x33"];
-  "y33" -> "mpb" [label="x33"];
-  "XOR" -> "fjg" [label="y43"];
-  "x43" -> "fjg" [label="y43"];
-  "XOR" -> "btp" [label="y02"];
-  "x02" -> "btp" [label="y02"];
-  "XOR" -> "rpv" [label="hnn"];
-  "dvh" -> "rpv" [label="hnn"];
-  "XOR" -> "z24" [label="cpf"];
-  "btf" -> "z24" [label="cpf"];
-  "XOR" -> "rww" [label="y42"];
-  "x42" -> "rww" [label="y42"];
-  "AND" -> "qvj" [label="gps"];
-  "ggb" -> "qvj" [label="gps"];
-  "AND" -> "ntc" [label="sbn"];
-  "cmn" -> "ntc" [label="sbn"];
-  "AND" -> "gkt" [label="x36"];
-  "y36" -> "gkt" [label="x36"];
-  "XOR" -> "vnt" [label="y39"];
-  "x39" -> "vnt" [label="y39"];
-  "OR" -> "btf" [label="dnp"];
-  "nsp" -> "btf" [label="dnp"];
-  "OR" -> "rfs" [label="rtp"];
-  "qms" -> "rfs" [label="rtp"];
-  "AND" -> "wmk" [label="y29"];
-  "x29" -> "wmk" [label="y29"];
-  "XOR" -> "cpf" [label="x24"];
-  "y24" -> "cpf" [label="x24"];
-  "AND" -> "rvf" [label="rtg"];
-  "drq" -> "rvf" [label="rtg"];
-  "AND" -> "thp" [label="sjb"];
-  "dbd" -> "thp" [label="sjb"];
-  "XOR" -> "z44" [label="bbf"];
-  "fpp" -> "z44" [label="bbf"];
-  "XOR" -> "vjq" [label="x32"];
-  "y32" -> "vjq" [label="x32"];
-  "AND" -> "rfq" [label="vnt"];
-  "dvq" -> "rfq" [label="vnt"];
-  "AND" -> "stf" [label="btf"];
-  "cpf" -> "stf" [label="btf"];
-  "XOR" -> "z13" [label="hjm"];
-  "fvp" -> "z13" [label="hjm"];
-  "XOR" -> "z17" [label="rmd"];
-  "jws" -> "z17" [label="rmd"];
-  "XOR" -> "z06" [label="rfs"];
-  "pcb" -> "z06" [label="rfs"];
-  "AND" -> "bmm" [label="fgs"];
-  "ctw" -> "bmm" [label="fgs"];
-  "XOR" -> "z39" [label="vnt"];
-  "dvq" -> "z39" [label="vnt"];
-  "AND" -> "wqh" [label="dvv"];
-  "cfp" -> "wqh" [label="dvv"];
-  "OR" -> "jgm" [label="mfj"];
-  "vgr" -> "jgm" [label="mfj"];
-  "AND" -> "qds" [label="y25"];
-  "x25" -> "qds" [label="y25"];
-  "OR" -> "cmn" [label="qds"];
-  "btk" -> "cmn" [label="qds"];
-  "AND" -> "hfv" [label="kvh"];
-  "srm" -> "hfv" [label="kvh"];
-  "XOR" -> "wcd" [label="y09"];
-  "x09" -> "wcd" [label="y09"];
-  "XOR" -> "kvh" [label="y10"];
-  "x10" -> "kvh" [label="y10"];
-  "OR" -> "jcs" [label="dwv"];
-  "mhg" -> "jcs" [label="dwv"];
-  "AND" -> "mbk" [label="y16"];
-  "x16" -> "mbk" [label="y16"];
-  "AND" -> "ggc" [label="y43"];
-  "x43" -> "ggc" [label="y43"];
-  "AND" -> "krw" [label="x34"];
-  "y34" -> "krw" [label="x34"];
-  "XOR" -> "gnb" [label="x29"];
-  "y29" -> "gnb" [label="x29"];
-  "AND" -> "mgr" [label="y02"];
-  "x02" -> "mgr" [label="y02"];
-  "AND" -> "mbg" [label="fgk"];
-  "sqm" -> "mbg" [label="fgk"];
-  "XOR" -> "dmf" [label="y40"];
-  "x40" -> "dmf" [label="y40"];
-  "XOR" -> "frw" [label="y08"];
-  "x08" -> "frw" [label="y08"];
-  "AND" -> "z11" [label="dvh"];
-  "hnn" -> "z11" [label="dvh"];
-  "AND" -> "qvt" [label="y35"];
-  "x35" -> "qvt" [label="y35"];
-  "OR" -> "fps" [label="qvj"];
-  "qvt" -> "fps" [label="qvj"];
-  "AND" -> "qqp" [label="x30"];
-  "y30" -> "qqp" [label="x30"];
-  "AND" -> "vgr" [label="nwb"];
-  "dmf" -> "vgr" [label="nwb"];
-  "XOR" -> "ctw" [label="x31"];
-  "y31" -> "ctw" [label="x31"];
-  "OR" -> "kbg" [label="kvg"];
-  "hhf" -> "kbg" [label="kvg"];
-  "XOR" -> "z34" [label="sbf"];
-  "ngd" -> "z34" [label="sbf"];
-  "OR" -> "jww" [label="mjp"];
-  "jcd" -> "jww" [label="mjp"];
-  "XOR" -> "z10" [label="srm"];
-  "kvh" -> "z10" [label="srm"];
-  "AND" -> "ctg" [label="y15"];
-  "x15" -> "ctg" [label="y15"];
-  "XOR" -> "ngd" [label="y34"];
-  "x34" -> "ngd" [label="y34"];
-  "OR" -> "z38" [label="bvk"];
-  "trm" -> "z38" [label="bvk"];
-  "OR" -> "dtf" [label="dmh"];
-  "bmm" -> "dtf" [label="dmh"];
-  "XOR" -> "gjs" [label="x20"];
-  "y20" -> "gjs" [label="x20"];
-  "AND" -> "dsw" [label="y26"];
-  "x26" -> "dsw" [label="y26"];
-  "AND" -> "jqp" [label="y04"];
-  "x04" -> "jqp" [label="y04"];
-  "AND" -> "kfq" [label="cjs"];
-  "gnb" -> "kfq" [label="cjs"];
-  "XOR" -> "z01" [label="rtg"];
-  "drq" -> "z01" [label="rtg"];
-  "AND" -> "jbg" [label="ngk"];
-  "jcs" -> "jbg" [label="ngk"];
-  "OR" -> "sqm" [label="ktf"];
-  "vpn" -> "sqm" [label="ktf"];
-  "OR" -> "hjm" [label="nhs"];
-  "stn" -> "hjm" [label="nhs"];
-  "AND" -> "fmk" [label="y37"];
-  "x37" -> "fmk" [label="y37"];
-  "AND" -> "rmq" [label="y13"];
-  "x13" -> "rmq" [label="y13"];
-  "OR" -> "dbd" [label="dsw"];
-  "ntc" -> "dbd" [label="dsw"];
-  "XOR" -> "z25" [label="hwk"];
-  "cbc" -> "z25" [label="hwk"];
-  "XOR" -> "z07" [label="fgk"];
-  "sqm" -> "z07" [label="fgk"];
-  "XOR" -> "hwb" [label="y28"];
-  "x28" -> "hwb" [label="y28"];
-  "AND" -> "nvc" [label="x11"];
-  "y11" -> "nvc" [label="x11"];
-  "OR" -> "hrv" [label="mst"];
-  "mgr" -> "hrv" [label="mst"];
-  "XOR" -> "z03" [label="wbm"];
-  "hrv" -> "z03" [label="wbm"];
-  "XOR" -> "z35" [label="gps"];
-  "ggb" -> "z35" [label="gps"];
-  "OR" -> "tkf" [label="mbg"];
-  "djc" -> "tkf" [label="mbg"];
-  "AND" -> "nhf" [label="y20"];
-  "x20" -> "nhf" [label="y20"];
-  "AND" -> "tgr" [label="rdf"];
-  "nck" -> "tgr" [label="rdf"];
-  "XOR" -> "z36" [label="fps"];
-  "rbf" -> "z36" [label="fps"];
-  "XOR" -> "rpb" [label="x15"];
-  "y15" -> "rpb" [label="x15"];
-  "OR" -> "wmb" [label="sqh"];
-  "rpb" -> "wmb" [label="sqh"];
-  "OR" -> "sbf" [label="spv"];
-  "hvw" -> "sbf" [label="spv"];
-  "AND" -> "spp" [label="y18"];
-  "x18" -> "spp" [label="y18"];
-  "AND" -> "wdw" [label="rww"];
-  "kbg" -> "wdw" [label="rww"];
-  "AND" -> "ptt" [label="fpv"];
-  "fjg" -> "ptt" [label="fpv"];
-  "AND" -> "mfj" [label="x40"];
-  "y40" -> "mfj" [label="x40"];
-  "XOR" -> "fgk" [label="y07"];
-  "x07" -> "fgk" [label="y07"];
-  "AND" -> "vpn" [label="y06"];
-  "x06" -> "vpn" [label="y06"];
-  "XOR" -> "cbv" [label="x22"];
-  "y22" -> "cbv" [label="x22"];
-  "OR" -> "cbc" [label="stf"];
-  "djv" -> "cbc" [label="stf"];
-  "XOR" -> "hhv" [label="x38"];
-  "y38" -> "hhv" [label="x38"];
-  "AND" -> "fkm" [label="hhm"];
-  "dqd" -> "fkm" [label="hhm"];
-  "XOR" -> "z08" [label="frw"];
-  "tkf" -> "z08" [label="frw"];
-  "XOR" -> "dvv" [label="x37"];
-  "y37" -> "dvv" [label="x37"];
-  "OR" -> "tdr" [label="qrk"];
-  "rmq" -> "tdr" [label="qrk"];
-  "XOR" -> "ggb" [label="x35"];
-  "y35" -> "ggb" [label="x35"];
-  "AND" -> "qms" [label="sbt"];
-  "ndc" -> "qms" [label="sbt"];
-  "AND" -> "cpj" [label="x21"];
-  "y21" -> "cpj" [label="x21"];
-  "XOR" -> "z22" [label="cbv"];
-  "cmt" -> "z22" [label="cbv"];
-  "OR" -> "nrq" [label="nrt"];
-  "trg" -> "nrq" [label="nrt"];
-  "AND" -> "mst" [label="btp"];
-  "nhg" -> "mst" [label="btp"];
-  "OR" -> "gps" [label="ksc"];
-  "krw" -> "gps" [label="ksc"];
-  "XOR" -> "hwk" [label="x25"];
-  "y25" -> "hwk" [label="x25"];
-  "AND" -> "vsq" [label="fps"];
-  "rbf" -> "vsq" [label="fps"];
-  "AND" -> "bbk" [label="x39"];
-  "y39" -> "bbk" [label="x39"];
-  "XOR" -> "z02" [label="btp"];
-  "nhg" -> "z02" [label="btp"];
-  "XOR" -> "twb" [label="x41"];
-  "y41" -> "twb" [label="x41"];
-  "XOR" -> "z27" [label="sjb"];
-  "dbd" -> "z27" [label="sjb"];
-  "XOR" -> "z26" [label="sbn"];
-  "cmn" -> "z26" [label="sbn"];
-  "XOR" -> "z37" [label="cfp"];
-  "dvv" -> "z37" [label="cfp"];
-  "AND" -> "nsp" [label="djk"];
-  "jww" -> "nsp" [label="djk"];
-  "AND" -> "bvk" [label="x38"];
-  "y38" -> "bvk" [label="x38"];
+  "z21" [shape=diamond, label="XOR"];
+  "rdf" -> "z21" [label=rdf]
+  "nck" -> "z21" [label=nck]
+  "zz21" [shape=box, style=filled, label=z21];
+  "z21" -> "zz21"
+  "stn" [shape=diamond, label="AND"];
+  "y12" -> "stn" [label=y12]
+  "x12" -> "stn" [label=x12]
+  "z41" [shape=diamond, label="XOR"];
+  "twb" -> "z41" [label=twb]
+  "jgm" -> "z41" [label=jgm]
+  "zz41" [shape=box, style=filled, label=z41];
+  "z41" -> "zz41"
+  "cmt" [shape=diamond, label="OR"];
+  "cpj" -> "cmt" [label=cpj]
+  "tgr" -> "cmt" [label=tgr]
+  "jws" [shape=diamond, label="XOR"];
+  "y17" -> "jws" [label=y17]
+  "x17" -> "jws" [label=x17]
+  "z14" [shape=diamond, label="XOR"];
+  "cpg" -> "z14" [label=cpg]
+  "tdr" -> "z14" [label=tdr]
+  "zz14" [shape=box, style=filled, label=z14];
+  "z14" -> "zz14"
+  "dkt" [shape=diamond, label="AND"];
+  "x42" -> "dkt" [label=x42]
+  "y42" -> "dkt" [label=y42]
+  "dck" [shape=diamond, label="OR"];
+  "jmq" -> "dck" [label=jmq]
+  "bjv" -> "dck" [label=bjv]
+  "cwk" [shape=diamond, label="AND"];
+  "wkt" -> "cwk" [label=wkt]
+  "jgp" -> "cwk" [label=jgp]
+  "pqr" [shape=diamond, label="OR"];
+  "fmk" -> "pqr" [label=fmk]
+  "wqh" -> "pqr" [label=wqh]
+  "rsd" [shape=diamond, label="AND"];
+  "jws" -> "rsd" [label=jws]
+  "rmd" -> "rsd" [label=rmd]
+  "rns" [shape=diamond, label="AND"];
+  "y32" -> "rns" [label=y32]
+  "x32" -> "rns" [label=x32]
+  "kvg" [shape=diamond, label="AND"];
+  "twb" -> "kvg" [label=twb]
+  "jgm" -> "kvg" [label=jgm]
+  "z09" [shape=diamond, label="XOR"];
+  "nrq" -> "z09" [label=nrq]
+  "wcd" -> "z09" [label=wcd]
+  "zz09" [shape=box, style=filled, label=z09];
+  "z09" -> "zz09"
+  "dtb" [shape=diamond, label="OR"];
+  "btc" -> "dtb" [label=btc]
+  "rns" -> "dtb" [label=rns]
+  "z20" [shape=diamond, label="XOR"];
+  "ctq" -> "z20" [label=ctq]
+  "gjs" -> "z20" [label=gjs]
+  "zz20" [shape=box, style=filled, label=z20];
+  "z20" -> "zz20"
+  "z18" [shape=diamond, label="XOR"];
+  "dqd" -> "z18" [label=dqd]
+  "hhm" -> "z18" [label=hhm]
+  "zz18" [shape=box, style=filled, label=z18];
+  "z18" -> "zz18"
+  "nhs" [shape=diamond, label="AND"];
+  "hfh" -> "nhs" [label=hfh]
+  "jdt" -> "nhs" [label=jdt]
+  "hhm" [shape=diamond, label="OR"];
+  "rsd" -> "hhm" [label=rsd]
+  "rgp" -> "hhm" [label=rgp]
+  "kmw" [shape=diamond, label="AND"];
+  "x19" -> "kmw" [label=x19]
+  "y19" -> "kmw" [label=y19]
+  "z15" [shape=diamond, label="XOR"];
+  "dck" -> "z15" [label=dck]
+  "ctg" -> "z15" [label=ctg]
+  "zz15" [shape=box, style=filled, label=z15];
+  "z15" -> "zz15"
+  "trm" [shape=diamond, label="AND"];
+  "pqr" -> "trm" [label=pqr]
+  "hhv" -> "trm" [label=hhv]
+  "trg" [shape=diamond, label="AND"];
+  "y08" -> "trg" [label=y08]
+  "x08" -> "trg" [label=x08]
+  "dmh" [shape=diamond, label="AND"];
+  "x31" -> "dmh" [label=x31]
+  "y31" -> "dmh" [label=y31]
+  "bjv" [shape=diamond, label="AND"];
+  "x14" -> "bjv" [label=x14]
+  "y14" -> "bjv" [label=y14]
+  "sbn" [shape=diamond, label="XOR"];
+  "y26" -> "sbn" [label=y26]
+  "x26" -> "sbn" [label=x26]
+  "z30" [shape=diamond, label="XOR"];
+  "pgj" -> "z30" [label=pgj]
+  "fnn" -> "z30" [label=fnn]
+  "zz30" [shape=box, style=filled, label=z30];
+  "z30" -> "zz30"
+  "cqf" [shape=diamond, label="AND"];
+  "hwb" -> "cqf" [label=hwb]
+  "rgq" -> "cqf" [label=rgq]
+  "fcj" [shape=diamond, label="AND"];
+  "ctq" -> "fcj" [label=ctq]
+  "gjs" -> "fcj" [label=gjs]
+  "rgq" [shape=diamond, label="OR"];
+  "thp" -> "rgq" [label=thp]
+  "qdg" -> "rgq" [label=qdg]
+  "mhg" [shape=diamond, label="AND"];
+  "y03" -> "mhg" [label=y03]
+  "x03" -> "mhg" [label=x03]
+  "z05" [shape=diamond, label="XOR"];
+  "sbt" -> "z05" [label=sbt]
+  "ndc" -> "z05" [label=ndc]
+  "zz05" [shape=box, style=filled, label=z05];
+  "z05" -> "zz05"
+  "dvh" [shape=diamond, label="OR"];
+  "nrr" -> "dvh" [label=nrr]
+  "hfv" -> "dvh" [label=hfv]
+  "djc" [shape=diamond, label="AND"];
+  "x07" -> "djc" [label=x07]
+  "y07" -> "djc" [label=y07]
+  "hvw" [shape=diamond, label="AND"];
+  "dtb" -> "hvw" [label=dtb]
+  "mpb" -> "hvw" [label=mpb]
+  "cjs" [shape=diamond, label="OR"];
+  "pwm" -> "cjs" [label=pwm]
+  "cqf" -> "cjs" [label=cqf]
+  "fpv" [shape=diamond, label="OR"];
+  "dkt" -> "fpv" [label=dkt]
+  "wdw" -> "fpv" [label=wdw]
+  "djv" [shape=diamond, label="AND"];
+  "x24" -> "djv" [label=x24]
+  "y24" -> "djv" [label=y24]
+  "cfp" [shape=diamond, label="OR"];
+  "vsq" -> "cfp" [label=vsq]
+  "gkt" -> "cfp" [label=gkt]
+  "rgp" [shape=diamond, label="AND"];
+  "x17" -> "rgp" [label=x17]
+  "y17" -> "rgp" [label=y17]
+  "nhg" [shape=diamond, label="OR"];
+  "rvf" -> "nhg" [label=rvf]
+  "vph" -> "nhg" [label=vph]
+  "bbf" [shape=diamond, label="XOR"];
+  "x44" -> "bbf" [label=x44]
+  "y44" -> "bbf" [label=y44]
+  "z29" [shape=diamond, label="XOR"];
+  "cjs" -> "z29" [label=cjs]
+  "gnb" -> "z29" [label=gnb]
+  "zz29" [shape=box, style=filled, label=z29];
+  "z29" -> "zz29"
+  "pgj" [shape=diamond, label="XOR"];
+  "y30" -> "pgj" [label=y30]
+  "x30" -> "pgj" [label=x30]
+  "sjb" [shape=diamond, label="XOR"];
+  "y27" -> "sjb" [label=y27]
+  "x27" -> "sjb" [label=x27]
+  "dps" [shape=diamond, label="AND"];
+  "fpp" -> "dps" [label=fpp]
+  "bbf" -> "dps" [label=bbf]
+  "fpp" [shape=diamond, label="OR"];
+  "ggc" -> "fpp" [label=ggc]
+  "ptt" -> "fpp" [label=ptt]
+  "dqd" [shape=diamond, label="XOR"];
+  "x18" -> "dqd" [label=x18]
+  "y18" -> "dqd" [label=y18]
+  "jgp" [shape=diamond, label="XOR"];
+  "y19" -> "jgp" [label=y19]
+  "x19" -> "jgp" [label=x19]
+  "z19" [shape=diamond, label="XOR"];
+  "wkt" -> "z19" [label=wkt]
+  "jgp" -> "z19" [label=jgp]
+  "zz19" [shape=box, style=filled, label=z19];
+  "z19" -> "zz19"
+  "z04" [shape=diamond, label="XOR"];
+  "jcs" -> "z04" [label=jcs]
+  "ngk" -> "z04" [label=ngk]
+  "zz04" [shape=box, style=filled, label=z04];
+  "z04" -> "zz04"
+  "rdf" [shape=diamond, label="XOR"];
+  "y21" -> "rdf" [label=y21]
+  "x21" -> "rdf" [label=x21]
+  "wkt" [shape=diamond, label="OR"];
+  "spp" -> "wkt" [label=spp]
+  "fkm" -> "wkt" [label=fkm]
+  "vsd" [shape=diamond, label="XOR"];
+  "x16" -> "vsd" [label=x16]
+  "y16" -> "vsd" [label=y16]
+  "cpg" [shape=diamond, label="XOR"];
+  "y14" -> "cpg" [label=y14]
+  "x14" -> "cpg" [label=x14]
+  "rmd" [shape=diamond, label="OR"];
+  "mbk" -> "rmd" [label=mbk]
+  "qwg" -> "rmd" [label=qwg]
+  "nrr" [shape=diamond, label="AND"];
+  "y10" -> "nrr" [label=y10]
+  "x10" -> "nrr" [label=x10]
+  "sbt" [shape=diamond, label="XOR"];
+  "x05" -> "sbt" [label=x05]
+  "y05" -> "sbt" [label=y05]
+  "fvp" [shape=diamond, label="XOR"];
+  "y13" -> "fvp" [label=y13]
+  "x13" -> "fvp" [label=x13]
+  "srm" [shape=diamond, label="OR"];
+  "gdf" -> "srm" [label=gdf]
+  "tnw" -> "srm" [label=tnw]
+  "gdf" [shape=diamond, label="AND"];
+  "x09" -> "gdf" [label=x09]
+  "y09" -> "gdf" [label=y09]
+  "jdt" [shape=diamond, label="OR"];
+  "nvc" -> "jdt" [label=nvc]
+  "rpv" -> "jdt" [label=rpv]
+  "ctq" [shape=diamond, label="OR"];
+  "kmw" -> "ctq" [label=kmw]
+  "cwk" -> "ctq" [label=cwk]
+  "qwg" [shape=diamond, label="AND"];
+  "vsd" -> "qwg" [label=vsd]
+  "wmb" -> "qwg" [label=wmb]
+  "mfg" [shape=diamond, label="AND"];
+  "x44" -> "mfg" [label=x44]
+  "y44" -> "mfg" [label=y44]
+  "qdg" [shape=diamond, label="AND"];
+  "y27" -> "qdg" [label=y27]
+  "x27" -> "qdg" [label=x27]
+  "ndc" [shape=diamond, label="OR"];
+  "jbg" -> "ndc" [label=jbg]
+  "jqp" -> "ndc" [label=jqp]
+  "ngk" [shape=diamond, label="XOR"];
+  "x04" -> "ngk" [label=x04]
+  "y04" -> "ngk" [label=y04]
+  "z12" [shape=diamond, label="XOR"];
+  "hfh" -> "z12" [label=hfh]
+  "jdt" -> "z12" [label=jdt]
+  "zz12" [shape=box, style=filled, label=z12];
+  "z12" -> "zz12"
+  "sqh" [shape=diamond, label="AND"];
+  "ctg" -> "sqh" [label=ctg]
+  "dck" -> "sqh" [label=dck]
+  "z23" [shape=diamond, label="XOR"];
+  "jww" -> "z23" [label=jww]
+  "djk" -> "z23" [label=djk]
+  "zz23" [shape=box, style=filled, label=z23];
+  "z23" -> "zz23"
+  "z32" [shape=diamond, label="XOR"];
+  "dtf" -> "z32" [label=dtf]
+  "vjq" -> "z32" [label=vjq]
+  "zz32" [shape=box, style=filled, label=z32];
+  "z32" -> "zz32"
+  "ksc" [shape=diamond, label="AND"];
+  "ngd" -> "ksc" [label=ngd]
+  "sbf" -> "ksc" [label=sbf]
+  "z45" [shape=diamond, label="OR"];
+  "mfg" -> "z45" [label=mfg]
+  "dps" -> "z45" [label=dps]
+  "zz45" [shape=box, style=filled, label=z45];
+  "z45" -> "zz45"
+  "rtg" [shape=diamond, label="XOR"];
+  "x01" -> "rtg" [label=x01]
+  "y01" -> "rtg" [label=y01]
+  "jmq" [shape=diamond, label="AND"];
+  "tdr" -> "jmq" [label=tdr]
+  "cpg" -> "jmq" [label=cpg]
+  "pwm" [shape=diamond, label="AND"];
+  "y28" -> "pwm" [label=y28]
+  "x28" -> "pwm" [label=x28]
+  "hhf" [shape=diamond, label="AND"];
+  "y41" -> "hhf" [label=y41]
+  "x41" -> "hhf" [label=x41]
+  "fgs" [shape=diamond, label="OR"];
+  "qqp" -> "fgs" [label=qqp]
+  "hfd" -> "fgs" [label=hfd]
+  "z16" [shape=diamond, label="XOR"];
+  "wmb" -> "z16" [label=wmb]
+  "vsd" -> "z16" [label=vsd]
+  "zz16" [shape=box, style=filled, label=z16];
+  "z16" -> "zz16"
+  "hfd" [shape=diamond, label="AND"];
+  "pgj" -> "hfd" [label=pgj]
+  "fnn" -> "hfd" [label=fnn]
+  "z40" [shape=diamond, label="XOR"];
+  "dmf" -> "z40" [label=dmf]
+  "nwb" -> "z40" [label=nwb]
+  "zz40" [shape=box, style=filled, label=z40];
+  "z40" -> "zz40"
+  "ktf" [shape=diamond, label="AND"];
+  "rfs" -> "ktf" [label=rfs]
+  "pcb" -> "ktf" [label=pcb]
+  "rtp" [shape=diamond, label="AND"];
+  "y05" -> "rtp" [label=y05]
+  "x05" -> "rtp" [label=x05]
+  "btc" [shape=diamond, label="AND"];
+  "vjq" -> "btc" [label=vjq]
+  "dtf" -> "btc" [label=dtf]
+  "qrk" [shape=diamond, label="AND"];
+  "fvp" -> "qrk" [label=fvp]
+  "hjm" -> "qrk" [label=hjm]
+  "z33" [shape=diamond, label="XOR"];
+  "mpb" -> "z33" [label=mpb]
+  "dtb" -> "z33" [label=dtb]
+  "zz33" [shape=box, style=filled, label=z33];
+  "z33" -> "zz33"
+  "hfh" [shape=diamond, label="XOR"];
+  "y12" -> "hfh" [label=y12]
+  "x12" -> "hfh" [label=x12]
+  "jcd" [shape=diamond, label="AND"];
+  "cmt" -> "jcd" [label=cmt]
+  "cbv" -> "jcd" [label=cbv]
+  "nrt" [shape=diamond, label="AND"];
+  "tkf" -> "nrt" [label=tkf]
+  "frw" -> "nrt" [label=frw]
+  "tnw" [shape=diamond, label="AND"];
+  "wcd" -> "tnw" [label=wcd]
+  "nrq" -> "tnw" [label=nrq]
+  "btk" [shape=diamond, label="AND"];
+  "hwk" -> "btk" [label=hwk]
+  "cbc" -> "btk" [label=cbc]
+  "z38" [shape=diamond, label="XOR"];
+  "hhv" -> "z38" [label=hhv]
+  "pqr" -> "z38" [label=pqr]
+  "zz38" [shape=box, style=filled, label=z38];
+  "z38" -> "zz38"
+  "nwb" [shape=diamond, label="OR"];
+  "rfq" -> "nwb" [label=rfq]
+  "bbk" -> "nwb" [label=bbk]
+  "nck" [shape=diamond, label="OR"];
+  "nhf" -> "nck" [label=nhf]
+  "fcj" -> "nck" [label=fcj]
+  "z42" [shape=diamond, label="XOR"];
+  "rww" -> "z42" [label=rww]
+  "kbg" -> "z42" [label=kbg]
+  "zz42" [shape=box, style=filled, label=z42];
+  "z42" -> "zz42"
+  "hnn" [shape=diamond, label="XOR"];
+  "x11" -> "hnn" [label=x11]
+  "y11" -> "hnn" [label=y11]
+  "z31" [shape=diamond, label="XOR"];
+  "fgs" -> "z31" [label=fgs]
+  "ctw" -> "z31" [label=ctw]
+  "zz31" [shape=box, style=filled, label=z31];
+  "z31" -> "zz31"
+  "rbf" [shape=diamond, label="XOR"];
+  "y36" -> "rbf" [label=y36]
+  "x36" -> "rbf" [label=x36]
+  "vph" [shape=diamond, label="AND"];
+  "y01" -> "vph" [label=y01]
+  "x01" -> "vph" [label=x01]
+  "z43" [shape=diamond, label="XOR"];
+  "fjg" -> "z43" [label=fjg]
+  "fpv" -> "z43" [label=fpv]
+  "zz43" [shape=box, style=filled, label=z43];
+  "z43" -> "zz43"
+  "pcb" [shape=diamond, label="XOR"];
+  "x06" -> "pcb" [label=x06]
+  "y06" -> "pcb" [label=y06]
+  "spv" [shape=diamond, label="AND"];
+  "x33" -> "spv" [label=x33]
+  "y33" -> "spv" [label=y33]
+  "z00" [shape=diamond, label="XOR"];
+  "y00" -> "z00" [label=y00]
+  "x00" -> "z00" [label=x00]
+  "zz00" [shape=box, style=filled, label=z00];
+  "z00" -> "zz00"
+  "djk" [shape=diamond, label="XOR"];
+  "x23" -> "djk" [label=x23]
+  "y23" -> "djk" [label=y23]
+  "mjp" [shape=diamond, label="AND"];
+  "x22" -> "mjp" [label=x22]
+  "y22" -> "mjp" [label=y22]
+  "dwv" [shape=diamond, label="AND"];
+  "wbm" -> "dwv" [label=wbm]
+  "hrv" -> "dwv" [label=hrv]
+  "z28" [shape=diamond, label="XOR"];
+  "hwb" -> "z28" [label=hwb]
+  "rgq" -> "z28" [label=rgq]
+  "zz28" [shape=box, style=filled, label=z28];
+  "z28" -> "zz28"
+  "wbm" [shape=diamond, label="XOR"];
+  "x03" -> "wbm" [label=x03]
+  "y03" -> "wbm" [label=y03]
+  "drq" [shape=diamond, label="AND"];
+  "x00" -> "drq" [label=x00]
+  "y00" -> "drq" [label=y00]
+  "dnp" [shape=diamond, label="AND"];
+  "x23" -> "dnp" [label=x23]
+  "y23" -> "dnp" [label=y23]
+  "fnn" [shape=diamond, label="OR"];
+  "wmk" -> "fnn" [label=wmk]
+  "kfq" -> "fnn" [label=kfq]
+  "mpb" [shape=diamond, label="XOR"];
+  "x33" -> "mpb" [label=x33]
+  "y33" -> "mpb" [label=y33]
+  "fjg" [shape=diamond, label="XOR"];
+  "y43" -> "fjg" [label=y43]
+  "x43" -> "fjg" [label=x43]
+  "btp" [shape=diamond, label="XOR"];
+  "y02" -> "btp" [label=y02]
+  "x02" -> "btp" [label=x02]
+  "z11" [shape=diamond, label="XOR"];
+  "hnn" -> "z11" [label=hnn]
+  "dvh" -> "z11" [label=dvh]
+  "zz11" [shape=box, style=filled, label=z11];
+  "z11" -> "zz11"
+  "z24" [shape=diamond, label="XOR"];
+  "cpf" -> "z24" [label=cpf]
+  "btf" -> "z24" [label=btf]
+  "zz24" [shape=box, style=filled, label=z24];
+  "z24" -> "zz24"
+  "rww" [shape=diamond, label="XOR"];
+  "y42" -> "rww" [label=y42]
+  "x42" -> "rww" [label=x42]
+  "qvj" [shape=diamond, label="AND"];
+  "gps" -> "qvj" [label=gps]
+  "ggb" -> "qvj" [label=ggb]
+  "ntc" [shape=diamond, label="AND"];
+  "sbn" -> "ntc" [label=sbn]
+  "cmn" -> "ntc" [label=cmn]
+  "gkt" [shape=diamond, label="AND"];
+  "x36" -> "gkt" [label=x36]
+  "y36" -> "gkt" [label=y36]
+  "vnt" [shape=diamond, label="XOR"];
+  "y39" -> "vnt" [label=y39]
+  "x39" -> "vnt" [label=x39]
+  "btf" [shape=diamond, label="OR"];
+  "dnp" -> "btf" [label=dnp]
+  "nsp" -> "btf" [label=nsp]
+  "rfs" [shape=diamond, label="OR"];
+  "rtp" -> "rfs" [label=rtp]
+  "qms" -> "rfs" [label=qms]
+  "wmk" [shape=diamond, label="AND"];
+  "y29" -> "wmk" [label=y29]
+  "x29" -> "wmk" [label=x29]
+  "cpf" [shape=diamond, label="XOR"];
+  "x24" -> "cpf" [label=x24]
+  "y24" -> "cpf" [label=y24]
+  "rvf" [shape=diamond, label="AND"];
+  "rtg" -> "rvf" [label=rtg]
+  "drq" -> "rvf" [label=drq]
+  "thp" [shape=diamond, label="AND"];
+  "sjb" -> "thp" [label=sjb]
+  "dbd" -> "thp" [label=dbd]
+  "z44" [shape=diamond, label="XOR"];
+  "bbf" -> "z44" [label=bbf]
+  "fpp" -> "z44" [label=fpp]
+  "zz44" [shape=box, style=filled, label=z44];
+  "z44" -> "zz44"
+  "vjq" [shape=diamond, label="XOR"];
+  "x32" -> "vjq" [label=x32]
+  "y32" -> "vjq" [label=y32]
+  "rfq" [shape=diamond, label="AND"];
+  "vnt" -> "rfq" [label=vnt]
+  "dvq" -> "rfq" [label=dvq]
+  "stf" [shape=diamond, label="AND"];
+  "btf" -> "stf" [label=btf]
+  "cpf" -> "stf" [label=cpf]
+  "z13" [shape=diamond, label="XOR"];
+  "hjm" -> "z13" [label=hjm]
+  "fvp" -> "z13" [label=fvp]
+  "zz13" [shape=box, style=filled, label=z13];
+  "z13" -> "zz13"
+  "z17" [shape=diamond, label="XOR"];
+  "rmd" -> "z17" [label=rmd]
+  "jws" -> "z17" [label=jws]
+  "zz17" [shape=box, style=filled, label=z17];
+  "z17" -> "zz17"
+  "z06" [shape=diamond, label="XOR"];
+  "rfs" -> "z06" [label=rfs]
+  "pcb" -> "z06" [label=pcb]
+  "zz06" [shape=box, style=filled, label=z06];
+  "z06" -> "zz06"
+  "bmm" [shape=diamond, label="AND"];
+  "fgs" -> "bmm" [label=fgs]
+  "ctw" -> "bmm" [label=ctw]
+  "z39" [shape=diamond, label="XOR"];
+  "vnt" -> "z39" [label=vnt]
+  "dvq" -> "z39" [label=dvq]
+  "zz39" [shape=box, style=filled, label=z39];
+  "z39" -> "zz39"
+  "wqh" [shape=diamond, label="AND"];
+  "dvv" -> "wqh" [label=dvv]
+  "cfp" -> "wqh" [label=cfp]
+  "jgm" [shape=diamond, label="OR"];
+  "mfj" -> "jgm" [label=mfj]
+  "vgr" -> "jgm" [label=vgr]
+  "qds" [shape=diamond, label="AND"];
+  "y25" -> "qds" [label=y25]
+  "x25" -> "qds" [label=x25]
+  "cmn" [shape=diamond, label="OR"];
+  "qds" -> "cmn" [label=qds]
+  "btk" -> "cmn" [label=btk]
+  "hfv" [shape=diamond, label="AND"];
+  "kvh" -> "hfv" [label=kvh]
+  "srm" -> "hfv" [label=srm]
+  "wcd" [shape=diamond, label="XOR"];
+  "y09" -> "wcd" [label=y09]
+  "x09" -> "wcd" [label=x09]
+  "kvh" [shape=diamond, label="XOR"];
+  "y10" -> "kvh" [label=y10]
+  "x10" -> "kvh" [label=x10]
+  "jcs" [shape=diamond, label="OR"];
+  "dwv" -> "jcs" [label=dwv]
+  "mhg" -> "jcs" [label=mhg]
+  "mbk" [shape=diamond, label="AND"];
+  "y16" -> "mbk" [label=y16]
+  "x16" -> "mbk" [label=x16]
+  "ggc" [shape=diamond, label="AND"];
+  "y43" -> "ggc" [label=y43]
+  "x43" -> "ggc" [label=x43]
+  "krw" [shape=diamond, label="AND"];
+  "x34" -> "krw" [label=x34]
+  "y34" -> "krw" [label=y34]
+  "gnb" [shape=diamond, label="XOR"];
+  "x29" -> "gnb" [label=x29]
+  "y29" -> "gnb" [label=y29]
+  "mgr" [shape=diamond, label="AND"];
+  "y02" -> "mgr" [label=y02]
+  "x02" -> "mgr" [label=x02]
+  "mbg" [shape=diamond, label="AND"];
+  "fgk" -> "mbg" [label=fgk]
+  "sqm" -> "mbg" [label=sqm]
+  "dmf" [shape=diamond, label="XOR"];
+  "y40" -> "dmf" [label=y40]
+  "x40" -> "dmf" [label=x40]
+  "frw" [shape=diamond, label="XOR"];
+  "y08" -> "frw" [label=y08]
+  "x08" -> "frw" [label=x08]
+  "rpv" [shape=diamond, label="AND"];
+  "dvh" -> "rpv" [label=dvh]
+  "hnn" -> "rpv" [label=hnn]
+  "qvt" [shape=diamond, label="AND"];
+  "y35" -> "qvt" [label=y35]
+  "x35" -> "qvt" [label=x35]
+  "fps" [shape=diamond, label="OR"];
+  "qvj" -> "fps" [label=qvj]
+  "qvt" -> "fps" [label=qvt]
+  "qqp" [shape=diamond, label="AND"];
+  "x30" -> "qqp" [label=x30]
+  "y30" -> "qqp" [label=y30]
+  "vgr" [shape=diamond, label="AND"];
+  "nwb" -> "vgr" [label=nwb]
+  "dmf" -> "vgr" [label=dmf]
+  "ctw" [shape=diamond, label="XOR"];
+  "x31" -> "ctw" [label=x31]
+  "y31" -> "ctw" [label=y31]
+  "kbg" [shape=diamond, label="OR"];
+  "kvg" -> "kbg" [label=kvg]
+  "hhf" -> "kbg" [label=hhf]
+  "z34" [shape=diamond, label="XOR"];
+  "sbf" -> "z34" [label=sbf]
+  "ngd" -> "z34" [label=ngd]
+  "zz34" [shape=box, style=filled, label=z34];
+  "z34" -> "zz34"
+  "jww" [shape=diamond, label="OR"];
+  "mjp" -> "jww" [label=mjp]
+  "jcd" -> "jww" [label=jcd]
+  "z10" [shape=diamond, label="XOR"];
+  "srm" -> "z10" [label=srm]
+  "kvh" -> "z10" [label=kvh]
+  "zz10" [shape=box, style=filled, label=z10];
+  "z10" -> "zz10"
+  "rpb" [shape=diamond, label="AND"];
+  "y15" -> "rpb" [label=y15]
+  "x15" -> "rpb" [label=x15]
+  "ngd" [shape=diamond, label="XOR"];
+  "y34" -> "ngd" [label=y34]
+  "x34" -> "ngd" [label=x34]
+  "dvq" [shape=diamond, label="OR"];
+  "bvk" -> "dvq" [label=bvk]
+  "trm" -> "dvq" [label=trm]
+  "dtf" [shape=diamond, label="OR"];
+  "dmh" -> "dtf" [label=dmh]
+  "bmm" -> "dtf" [label=bmm]
+  "gjs" [shape=diamond, label="XOR"];
+  "x20" -> "gjs" [label=x20]
+  "y20" -> "gjs" [label=y20]
+  "dsw" [shape=diamond, label="AND"];
+  "y26" -> "dsw" [label=y26]
+  "x26" -> "dsw" [label=x26]
+  "jqp" [shape=diamond, label="AND"];
+  "y04" -> "jqp" [label=y04]
+  "x04" -> "jqp" [label=x04]
+  "kfq" [shape=diamond, label="AND"];
+  "cjs" -> "kfq" [label=cjs]
+  "gnb" -> "kfq" [label=gnb]
+  "z01" [shape=diamond, label="XOR"];
+  "rtg" -> "z01" [label=rtg]
+  "drq" -> "z01" [label=drq]
+  "zz01" [shape=box, style=filled, label=z01];
+  "z01" -> "zz01"
+  "jbg" [shape=diamond, label="AND"];
+  "ngk" -> "jbg" [label=ngk]
+  "jcs" -> "jbg" [label=jcs]
+  "sqm" [shape=diamond, label="OR"];
+  "ktf" -> "sqm" [label=ktf]
+  "vpn" -> "sqm" [label=vpn]
+  "hjm" [shape=diamond, label="OR"];
+  "nhs" -> "hjm" [label=nhs]
+  "stn" -> "hjm" [label=stn]
+  "fmk" [shape=diamond, label="AND"];
+  "y37" -> "fmk" [label=y37]
+  "x37" -> "fmk" [label=x37]
+  "rmq" [shape=diamond, label="AND"];
+  "y13" -> "rmq" [label=y13]
+  "x13" -> "rmq" [label=x13]
+  "dbd" [shape=diamond, label="OR"];
+  "dsw" -> "dbd" [label=dsw]
+  "ntc" -> "dbd" [label=ntc]
+  "z25" [shape=diamond, label="XOR"];
+  "hwk" -> "z25" [label=hwk]
+  "cbc" -> "z25" [label=cbc]
+  "zz25" [shape=box, style=filled, label=z25];
+  "z25" -> "zz25"
+  "z07" [shape=diamond, label="XOR"];
+  "fgk" -> "z07" [label=fgk]
+  "sqm" -> "z07" [label=sqm]
+  "zz07" [shape=box, style=filled, label=z07];
+  "z07" -> "zz07"
+  "hwb" [shape=diamond, label="XOR"];
+  "y28" -> "hwb" [label=y28]
+  "x28" -> "hwb" [label=x28]
+  "nvc" [shape=diamond, label="AND"];
+  "x11" -> "nvc" [label=x11]
+  "y11" -> "nvc" [label=y11]
+  "hrv" [shape=diamond, label="OR"];
+  "mst" -> "hrv" [label=mst]
+  "mgr" -> "hrv" [label=mgr]
+  "z03" [shape=diamond, label="XOR"];
+  "wbm" -> "z03" [label=wbm]
+  "hrv" -> "z03" [label=hrv]
+  "zz03" [shape=box, style=filled, label=z03];
+  "z03" -> "zz03"
+  "z35" [shape=diamond, label="XOR"];
+  "gps" -> "z35" [label=gps]
+  "ggb" -> "z35" [label=ggb]
+  "zz35" [shape=box, style=filled, label=z35];
+  "z35" -> "zz35"
+  "tkf" [shape=diamond, label="OR"];
+  "mbg" -> "tkf" [label=mbg]
+  "djc" -> "tkf" [label=djc]
+  "nhf" [shape=diamond, label="AND"];
+  "y20" -> "nhf" [label=y20]
+  "x20" -> "nhf" [label=x20]
+  "tgr" [shape=diamond, label="AND"];
+  "rdf" -> "tgr" [label=rdf]
+  "nck" -> "tgr" [label=nck]
+  "z36" [shape=diamond, label="XOR"];
+  "fps" -> "z36" [label=fps]
+  "rbf" -> "z36" [label=rbf]
+  "zz36" [shape=box, style=filled, label=z36];
+  "z36" -> "zz36"
+  "ctg" [shape=diamond, label="XOR"];
+  "x15" -> "ctg" [label=x15]
+  "y15" -> "ctg" [label=y15]
+  "wmb" [shape=diamond, label="OR"];
+  "sqh" -> "wmb" [label=sqh]
+  "rpb" -> "wmb" [label=rpb]
+  "sbf" [shape=diamond, label="OR"];
+  "spv" -> "sbf" [label=spv]
+  "hvw" -> "sbf" [label=hvw]
+  "spp" [shape=diamond, label="AND"];
+  "y18" -> "spp" [label=y18]
+  "x18" -> "spp" [label=x18]
+  "wdw" [shape=diamond, label="AND"];
+  "rww" -> "wdw" [label=rww]
+  "kbg" -> "wdw" [label=kbg]
+  "ptt" [shape=diamond, label="AND"];
+  "fpv" -> "ptt" [label=fpv]
+  "fjg" -> "ptt" [label=fjg]
+  "mfj" [shape=diamond, label="AND"];
+  "x40" -> "mfj" [label=x40]
+  "y40" -> "mfj" [label=y40]
+  "fgk" [shape=diamond, label="XOR"];
+  "y07" -> "fgk" [label=y07]
+  "x07" -> "fgk" [label=x07]
+  "vpn" [shape=diamond, label="AND"];
+  "y06" -> "vpn" [label=y06]
+  "x06" -> "vpn" [label=x06]
+  "cbv" [shape=diamond, label="XOR"];
+  "x22" -> "cbv" [label=x22]
+  "y22" -> "cbv" [label=y22]
+  "cbc" [shape=diamond, label="OR"];
+  "stf" -> "cbc" [label=stf]
+  "djv" -> "cbc" [label=djv]
+  "hhv" [shape=diamond, label="XOR"];
+  "x38" -> "hhv" [label=x38]
+  "y38" -> "hhv" [label=y38]
+  "fkm" [shape=diamond, label="AND"];
+  "hhm" -> "fkm" [label=hhm]
+  "dqd" -> "fkm" [label=dqd]
+  "z08" [shape=diamond, label="XOR"];
+  "frw" -> "z08" [label=frw]
+  "tkf" -> "z08" [label=tkf]
+  "zz08" [shape=box, style=filled, label=z08];
+  "z08" -> "zz08"
+  "dvv" [shape=diamond, label="XOR"];
+  "x37" -> "dvv" [label=x37]
+  "y37" -> "dvv" [label=y37]
+  "tdr" [shape=diamond, label="OR"];
+  "qrk" -> "tdr" [label=qrk]
+  "rmq" -> "tdr" [label=rmq]
+  "ggb" [shape=diamond, label="XOR"];
+  "x35" -> "ggb" [label=x35]
+  "y35" -> "ggb" [label=y35]
+  "qms" [shape=diamond, label="AND"];
+  "sbt" -> "qms" [label=sbt]
+  "ndc" -> "qms" [label=ndc]
+  "cpj" [shape=diamond, label="AND"];
+  "x21" -> "cpj" [label=x21]
+  "y21" -> "cpj" [label=y21]
+  "z22" [shape=diamond, label="XOR"];
+  "cbv" -> "z22" [label=cbv]
+  "cmt" -> "z22" [label=cmt]
+  "zz22" [shape=box, style=filled, label=z22];
+  "z22" -> "zz22"
+  "nrq" [shape=diamond, label="OR"];
+  "nrt" -> "nrq" [label=nrt]
+  "trg" -> "nrq" [label=trg]
+  "mst" [shape=diamond, label="AND"];
+  "btp" -> "mst" [label=btp]
+  "nhg" -> "mst" [label=nhg]
+  "gps" [shape=diamond, label="OR"];
+  "ksc" -> "gps" [label=ksc]
+  "krw" -> "gps" [label=krw]
+  "hwk" [shape=diamond, label="XOR"];
+  "x25" -> "hwk" [label=x25]
+  "y25" -> "hwk" [label=y25]
+  "vsq" [shape=diamond, label="AND"];
+  "fps" -> "vsq" [label=fps]
+  "rbf" -> "vsq" [label=rbf]
+  "bbk" [shape=diamond, label="AND"];
+  "x39" -> "bbk" [label=x39]
+  "y39" -> "bbk" [label=y39]
+  "z02" [shape=diamond, label="XOR"];
+  "btp" -> "z02" [label=btp]
+  "nhg" -> "z02" [label=nhg]
+  "zz02" [shape=box, style=filled, label=z02];
+  "z02" -> "zz02"
+  "twb" [shape=diamond, label="XOR"];
+  "x41" -> "twb" [label=x41]
+  "y41" -> "twb" [label=y41]
+  "z27" [shape=diamond, label="XOR"];
+  "sjb" -> "z27" [label=sjb]
+  "dbd" -> "z27" [label=dbd]
+  "zz27" [shape=box, style=filled, label=z27];
+  "z27" -> "zz27"
+  "z26" [shape=diamond, label="XOR"];
+  "sbn" -> "z26" [label=sbn]
+  "cmn" -> "z26" [label=cmn]
+  "zz26" [shape=box, style=filled, label=z26];
+  "z26" -> "zz26"
+  "z37" [shape=diamond, label="XOR"];
+  "cfp" -> "z37" [label=cfp]
+  "dvv" -> "z37" [label=dvv]
+  "zz37" [shape=box, style=filled, label=z37];
+  "z37" -> "zz37"
+  "nsp" [shape=diamond, label="AND"];
+  "djk" -> "nsp" [label=djk]
+  "jww" -> "nsp" [label=jww]
+  "bvk" [shape=diamond, label="AND"];
+  "x38" -> "bvk" [label=x38]
+  "y38" -> "bvk" [label=y38]
 }
